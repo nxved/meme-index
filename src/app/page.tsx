@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import {
   PieChart,
@@ -82,7 +82,7 @@ export default function Home() {
               <h2 className="text-4xl font-bold text-white mb-6 bungee-font">Ride the Meme Super Cycle</h2>
               <p className="text-xl text-white/90 retro-font">
                 Welcome to Meme Vault, the first-ever Meme Index Fund (MIF), designed to capture the explosive growth of the meme
-                coin super cycle. We're here to democratise meme coin investing, delivering sophisticated strategies for redacted assets.
+                coin super cycle. We are here to democratise meme coin investing, delivering sophisticated strategies for redacted assets.
               </p>
             </motion.div>
 
@@ -118,7 +118,7 @@ export default function Home() {
                   <li>Protected by Surge Pricing mechanism</li>
                 </ul>
                 <p>
-                  The value of $MV is pegged to the Net Asset Value (NAV) of the fund, ensuring that your token's worth is always backed by the meme coins held in the MemeVault Fund.
+                  The value of $MV is pegged to the Net Asset Value (NAV) of the fund, ensuring that your tokens worth is always backed by the meme coins held in the MemeVault Fund.
                 </p>
               </div>
             </Card>
@@ -244,7 +244,7 @@ export default function Home() {
               <Card className="p-6 bg-white/10 backdrop-blur-lg rounded-xl">
                 <h3 className="text-2xl font-bold text-white mb-4 bangers-font">Redemptions and Surge Pricing</h3>
                 <p className="text-white/80 retro-font">
-                  Meme Vault implements Surge Pricing, a dynamic redemption fee that varies based on demand. This protects the fund's value and discourages mass redemptions during high-demand periods.
+                  Meme Vault implements Surge Pricing, a dynamic redemption fee that varies based on demand. This protects the funds value and discourages mass redemptions during high-demand periods.
                 </p>
               </Card>
             </div>
