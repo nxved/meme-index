@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-// import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import {
   PieChart,
@@ -32,7 +32,7 @@ const fundingRoundsData = [
 
 const COLORS = ["#845EF7", "#FF6B6B", "#4C6EF5", "#51CF66"]
 
-function ErrorFallback({error }: { error: Error }) {
+function ErrorFallback({ error }: { error: Error }) {
   return (
     <div className="text-white text-center">
       <h2>Something went wrong:</h2>
@@ -61,12 +61,11 @@ export default function Home() {
             />
             <h1 className="text-6xl font-bold text-white mb-4 pixel-font">MEME VAULT</h1>
             <p className="text-2xl text-white mb-8 retro-font">THE 1000X FUND</p>
-            {/* <Button
-              size="lg"
+            <div
               className="bg-gradient-to-r from-yellow-400 to-pink-500 hover:from-yellow-500 hover:to-pink-600 text-white font-bold px-8 py-4 rounded-full text-lg bungee-font"
             >
-              Enter the Vault
-            </Button> */}
+              Coming Soon...
+            </div>
           </motion.div>
         </section>
 
@@ -248,6 +247,17 @@ export default function Home() {
                 </p>
               </Card>
             </div>
+            <section className="relative py-8 flex items-center justify-center overflow-hidden">
+              <a
+                href="https://jineshsurana420s-organization.gitbook.io/memevault/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-yellow-400 to-pink-500 hover:from-yellow-500 hover:to-pink-600 text-white font-bold px-8 py-4 rounded-full text-lg bungee-font"
+              >
+                Whitepaper
+              </a>
+            </section>
+
           </div>
         </section>
       </main>
